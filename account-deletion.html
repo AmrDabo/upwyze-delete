@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Account Deletion — Upwyze</title>
+  <meta name="description" content="How to request deletion of your Upwyze account and associated data." />
+  <style>
+    :root{
+      --navy:#0B1F3B; --peach:#F7C7A6; --gold:#D9A441;
+      --bg:#F7F4EF; --text:#0B1F3B; --muted:#55657A;
+      --card:#ffffff; --border:rgba(11,31,59,.12);
+      --shadow:0 14px 40px rgba(11,31,59,.12); --radius:18px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;color:var(--text);
+      background: radial-gradient(900px 500px at 15% 0%, rgba(247,199,166,.55), transparent 60%),
+                 radial-gradient(900px 500px at 85% 10%, rgba(217,164,65,.30), transparent 55%),
+                 var(--bg);}
+    .wrap{max-width:900px;margin:0 auto;padding:28px 18px 70px}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}
+    .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+    .logo{width:42px;height:42px;border-radius:14px;background:#fff;border:1px solid var(--border);box-shadow:0 10px 30px rgba(11,31,59,.12);overflow:hidden}
+    .logo img{width:100%;height:100%;object-fit:cover}
+    .title{margin:10px 0 6px;font-size:32px;letter-spacing:-.02em}
+    .sub{margin:0 0 18px;color:var(--muted);line-height:1.6}
+    .card{background:rgba(255,255,255,.9);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}
+    .steps{display:grid;gap:10px;margin-top:10px}
+    .step{padding:12px;border-radius:14px;background:rgba(11,31,59,.04);border:1px solid rgba(11,31,59,.08)}
+    .step b{display:block;margin-bottom:4px}
+    .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+    .btn{display:inline-flex;gap:10px;align-items:center;justify-content:center;text-decoration:none;
+      padding:12px 14px;border-radius:14px;font-weight:900;border:1px solid var(--border);background:#fff}
+    .btnPrimary{background:linear-gradient(135deg, var(--navy), #143A6A);color:#fff;border:1px solid rgba(255,255,255,.18)}
+    .k{display:inline-flex;align-items:center;gap:8px;background:rgba(217,164,65,.16);border:1px solid rgba(217,164,65,.35);
+      font-weight:900;font-size:12px;padding:8px 10px;border-radius:999px}
+    ul{margin:10px 0 0 18px;color:var(--muted);line-height:1.7}
+    .foot{margin-top:14px;color:var(--muted);font-size:13px;line-height:1.6}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="brand" href="index.html">
+        <div class="logo"><img src="logo.png" alt="Upwyze logo" onerror="this.style.display='none'"></div>
+        <div style="font-weight:900">Upwyze</div>
+      </a>
+      <a class="btn" href="index.html">Back to home</a>
+    </div>
+
+    <div class="k">Account Deletion</div>
+    <h1 class="title">Request deletion of your Upwyze account</h1>
+    <p class="sub">
+      Upwyze allows users to delete their account directly in the app. If you cannot access the app, you can request deletion by email.
+    </p>
+
+    <div class="card">
+      <h3 style="margin:0 0 8px">Option 1 — Delete inside the app (recommended)</h3>
+      <div class="steps">
+        <div class="step"><b>1) Open Upwyze</b>Log in to your account.</div>
+        <div class="step"><b>2) Go to Profile → Settings</b>Open account settings.</div>
+        <div class="step"><b>3) Tap “Delete Account”</b>Confirm to complete the request.</div>
+      </div>
+
+      <h3 style="margin:18px 0 8px">Option 2 — Request deletion by email</h3>
+      <p class="sub" style="margin:0">
+        Email us <b>from your registered email address</b> with the subject:
+        <b>“Account Deletion Request”</b>.
+      </p>
+      <div class="row">
+        <a class="btn btnPrimary" href="mailto:support@upwyze.net?subject=Account%20Deletion%20Request">Email Support</a>
+        <a class="btn" href="terms.html">Read Terms</a>
+        <a class="btn" href="privacy.html">Read Privacy</a>
+      </div>
+
+      <h3 style="margin:18px 0 8px">What will be deleted</h3>
+      <ul>
+        <li>Account profile and profile details</li>
+        <li>Bookings / sessions history</li>
+        <li>In-app messages / chat history</li>
+        <li>Wallet history associated with the account</li>
+      </ul>
+
+      <div class="foot">
+        <b>Processing time:</b> typically within <b>7 business days</b> (may vary based on legal/accounting requirements).
+      </div>
+    </div>
+  </div>
+</body>
+</html>
